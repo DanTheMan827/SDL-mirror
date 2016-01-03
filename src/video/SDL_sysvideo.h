@@ -423,6 +423,9 @@ extern VideoBootStrap Android_bootstrap;
 extern VideoBootStrap PSP_bootstrap;
 extern VideoBootStrap RPI_bootstrap;
 extern VideoBootStrap KMSDRM_bootstrap;
+#if SDL_VIDEO_DRIVER_MALI
+extern VideoBootStrap MALI_bootstrap;
+#endif
 extern VideoBootStrap DUMMY_bootstrap;
 extern VideoBootStrap Wayland_bootstrap;
 extern VideoBootStrap NACL_bootstrap;
