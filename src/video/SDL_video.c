@@ -38,7 +38,7 @@
 #endif /* SDL_VIDEO_OPENGL */
 
 #if SDL_VIDEO_OPENGL_ES && !SDL_VIDEO_OPENGL
-#include "SDL_opengles.h"
+//#include "SDL_opengles.h"
 #endif /* SDL_VIDEO_OPENGL_ES && !SDL_VIDEO_OPENGL */
 
 /* GL and GLES2 headers conflict on Linux 32 bits */
